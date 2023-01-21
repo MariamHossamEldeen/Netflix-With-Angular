@@ -1,0 +1,29 @@
+{
+  "Portfolio": [
+    {
+      "background-color" : "#303e50",
+      "image_url": "https://routeegypt.com/start-angular/assets/img/portfolio/cabin.png"
+    },
+    {
+      "background-color" : "#303e50",
+      "image_url": "https://routeegypt.com/start-angular/assets/img/portfolio/cake.png"
+    },
+    {
+      "background-color" : "#303e50",
+      "image_url": "https://routeegypt.com/start-angular/assets/img/portfolio/circus.png"
+    },
+    {
+      "background-color" : "#303e50",
+      "image_url": "https://routeegypt.com/start-angular/assets/img/portfolio/game.png"
+    },
+    {
+      "background-color" : "#303e50",
+      "image_url": "https://routeegypt.com/start-angular/assets/img/portfolio/safe.png"
+    },
+    {
+      "background-color" : "#303e50",
+      "image_url": "https://routeegypt.com/start-angular/assets/img/portfolio/submarine.png"
+    }
+
+      ]
+}

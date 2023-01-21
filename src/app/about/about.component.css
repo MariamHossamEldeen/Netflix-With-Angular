@@ -1,0 +1,63 @@
+.leftLine::after{
+  content: " ";
+  position: absolute !important;
+  width: 100px;
+  height: 3px;
+  background-color: white !important;
+  z-index: 4;
+  top: 10px;
+  right: 40%;
+}
+.rightLine::after{
+  content: " ";
+  position: absolute !important;
+  width: 100px;
+  height: 3px;
+  background-color: white !important;
+  z-index: 4;
+  top: 10px;
+  left: 40%;
+}
+.about {
+  background-color: #46bc9b;
+  height: fit-content;
+  padding-bottom: 50px;
+  padding-top: 20px;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 700;
+}
+
+.about p {
+  color: white;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 700;
+  margin-top: 30px;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+svg{
+  color: white !important;
+  font-size: 20px;
+}
+.iconContainer{
+  position: relative !important;
+
+}
+.aboutParagraphs{
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+.aboutParagraphs p {
+  font-size: 18px;
+}
+.aboutParagraphs div:first-of-type
+{
+  margin-left: 200px !important;
+  margin-right: 40px !important;
+}
+.aboutParagraphs div:last-of-type
+{
+  margin-right: 200px !important;
+  margin-left: 40px !important;
+}

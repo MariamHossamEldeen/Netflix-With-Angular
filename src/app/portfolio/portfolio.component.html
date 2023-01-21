@@ -1,0 +1,20 @@
+<div class="portfolio"  >
+  <div>
+    <p class="text-center">PORTFOLIO</p>
+    <div class="iconContainer text-center">
+      <div class="leftLine"></div>
+      <i class="fa-solid fa-star"></i>
+      <div class="rightLine"></div>
+    </div>
+  </div>
+  <div class="container imagContainer">
+    <div class="row">
+      <div class="col-md-4 imgClass" *ngFor="let item of imgArr">
+        <img [src]="item.image_url" alt="">
+        <div class="overlay">
+          <i class="fa-solid fa-plus"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
